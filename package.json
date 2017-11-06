@@ -1,0 +1,51 @@
+{
+  "name": "stream-promise-resolve",
+  "description": "A transform stream that resolves promises limiting concurrency",
+  "version": "1.0.0",
+  "keywords": ["stream", "promise"],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "jest": "jest",
+    "test": "npm run lint && npm run jest"
+  },
+  "author": "Daniel Lewis",
+  "repository": "mrdaniellewis/node-stream-promise-resolve",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1",
+    "stream-collect": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "class-methods-use-this": "off",
+      "max-len": [
+        "error",
+        120,
+        2
+      ],
+      "no-param-reassign": "off",
+      "no-plusplus": "off",
+      "no-underscore-dangle": "off",
+      "object-curly-newline": [
+        "error",
+        {
+          "multiline": true
+        }
+      ]
+    }
+  },
+  "jest": {
+    "clearMocks": true
+  }
+}
