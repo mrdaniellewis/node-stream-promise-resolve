@@ -2,7 +2,10 @@
   "name": "stream-promise-resolve",
   "description": "A transform stream that resolves promises limiting concurrency",
   "version": "1.0.0",
-  "keywords": ["stream", "promise"],
+  "keywords": [
+    "stream",
+    "promise"
+  ],
   "main": "index.js",
   "files": [
     "index.js"
@@ -16,11 +19,11 @@
   "repository": "mrdaniellewis/node-stream-promise-resolve",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^4.10.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "jest": "^21.2.1",
-    "stream-collect": "^2.1.0"
+    "eslint-plugin-import": "^2.11.0",
+    "jest": "^22.4.3",
+    "stream-collect": "^2.1.1"
   },
   "eslintConfig": {
     "extends": "airbnb-base",
