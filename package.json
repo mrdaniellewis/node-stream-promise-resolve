@@ -1,7 +1,7 @@
 {
   "name": "stream-promise-resolve",
   "description": "A transform stream that resolves promises limiting concurrency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "stream",
     "promise"
